@@ -1,0 +1,28 @@
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.csproj.AssemblyReference.cache
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.FormTransServices.resources
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.csproj.GenerateResource.cache
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.csproj.CoreCompileInputs.cache
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\bin\Debug\B1PostingDataText.exe.config
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\bin\Debug\B1PostingDataText.exe
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\bin\Debug\B1PostingDataText.pdb
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.exe
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.pdb
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\bin\Debug\SAPBusinessOneSDK.dll
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.csproj.CopyComplete
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\bin\Debug\Dapper.dll
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\bin\Debug\Dapper.xml
+D:\IDU\PROJECT\GORONTALO\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.Properties.QueryGet.resources
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\bin\Debug\B1PostingDataText.exe.config
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\bin\Debug\B1PostingDataText.exe
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\bin\Debug\B1PostingDataText.pdb
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\bin\Debug\Dapper.dll
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\bin\Debug\SAPBusinessOneSDK.dll
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\bin\Debug\Dapper.xml
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.csprojAssemblyReference.cache
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.FormTransServices.resources
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.Properties.QueryGet.resources
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.csproj.GenerateResource.cache
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.csproj.CoreCompileInputs.cache
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.csproj.CopyComplete
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.exe
+C:\Users\Teman IDUTALOGI\Documents\B1PostingDataText\B1PostingDataText\obj\Debug\B1PostingDataText.pdb

@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="_IDU_DLS_BALANCEDQTY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_IDU_DLS_BALANCEDQTY.sql</Value>
+    </Setting>
+    <Setting Name="_IDU_DLS_GET_PI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_IDU_DLS_GET_PI.sql</Value>
+    </Setting>
+    <Setting Name="_IDU_DLS_GET_STOCKWHS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_IDU_DLS_GET_STOCKWHS.sql</Value>
+    </Setting>
+    <Setting Name="_IDU_DLS_GETDLSBYID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_IDU_DLS_GETDLSBYID.sql</Value>
+    </Setting>
+    <Setting Name="_IDU_DLS_LAYOUTDS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_IDU_DLS_LAYOUTDS.sql</Value>
+    </Setting>
+    <Setting Name="_IDU_DLS_LISTAPPROVAL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_IDU_DLS_LISTAPPROVAL.sql</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

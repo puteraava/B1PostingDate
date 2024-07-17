@@ -1,0 +1,10 @@
+create procedure _IDU_DLS_LISTAPPROVAL
+AS begin
+	select "DocEntry",
+			 "DocNum" "DsNo",
+			 "U_IDU_CardCode" "Customer Code",
+			 "U_IDU_CardName" "Customer Name",
+			 "U_IDU_GrandTotal" "Total",
+			 "Remark"
+	from "@ODLS" where "Status"='O' and "U_IDU_Appr_Status"='W';
+end;

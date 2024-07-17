@@ -1,0 +1,9 @@
+create procedure _IDU_DLS_GETDLSBYID(
+in dsentry NVARCHAR(20)
+)
+as 
+begin
+	select * from "@ODLS" t0
+	inner join "@DLS1" t1 on t0."DocEntry"=t1."DocEntry"
+	where t0."DocEntry"=:dsentry;
+end;

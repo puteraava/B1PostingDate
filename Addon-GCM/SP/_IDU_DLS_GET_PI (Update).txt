@@ -1,0 +1,35 @@
+create procedure _IDU_DLS_GET_PI(
+	in Cardcode NVARCHAR(30),
+	in Postdate date
+)
+as
+begin
+select T0."DocNum",
+		T0."DocEntry",
+		T0."NumAtCard",
+		T1."ItemCode",
+		T1."Dscription",
+		T1."Price",
+		T1."Quantity",
+		T1."unitMsr",
+		T1."WhsCode",
+		T1."Price"*T1."Quantity" as "TotalAmount",
+		T1."U_Packaging",
+		T1."U_IDU_Bags",
+		T1."U_U_IDU_Bagging_Weight",
+		T1."U_IDU_PrdctHrchy",
+		T1."U_IDU_PricingGrp",
+		T1."U_Grade",
+		T1."Project",
+		T1."OcrCode",
+		T1."OcrCode2",
+		T1."OcrCode3",
+		T1."OcrCode4",
+		T1."OcrCode5",
+		T0."GroupNum",
+		T1."U_IDU_PI_Bal",
+		T1."VatGroup"
+from OQUT T0 
+inner join QUT1 T1 on T0."DocEntry"=T1."DocEntry"
+where T1."U_IDU_PI_Bal">0 and T0."CardCode"=:Cardcode and T0."DocDate" <= :Postdate and T0."DocStatus"='O';
+end;

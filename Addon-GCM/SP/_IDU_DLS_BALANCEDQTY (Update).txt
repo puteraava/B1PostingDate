@@ -1,0 +1,11 @@
+CREATE procedure _IDU_DLS_BALANCEDQTY(
+	in PI_no NVARCHAR(20),
+	in ItemCode NVARCHAR(20)
+	)
+AS
+begin
+select sum("U_IDU_Quantity") from "@DLS1"  t0
+inner join "@ODLS" t1 on t0."DocEntry"=t1."DocEntry"
+where t0."U_IDU_PI_No"=:PI_no and t0."U_IDU_ItemCode"=:ItemCode and t1."U_IDU_Appr_Status"<>'R' and t1."Canceled"='N' 
+and t1."U_IDU_DocStatus"='O';
+end;

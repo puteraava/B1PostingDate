@@ -1,0 +1,13 @@
+create procedure _IDU_DLS_GET_STOCKWHS(
+	in ItemCode NVARCHAR(30),
+	in BinCode  NVARCHAR(50),
+	in WhsCode NVARCHAR(100),
+	in Batch NVARCHAR(100)
+)
+as
+begin
+	select t0."OnHandQty" from OBBQ t0
+	inner join OBIN t1 on t0."BinAbs"=t1."AbsEntry"
+	inner join OBTN t2 on t0."SnBMDAbs"=t2."AbsEntry"
+	where t0."ItemCode"=:ItemCode and t0."WhsCode"=:WhsCode and t1."BinCode"=:BinCode and t2."DistNumber"=:Batch;
+end;

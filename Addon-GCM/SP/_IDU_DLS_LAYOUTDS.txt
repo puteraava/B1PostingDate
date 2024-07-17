@@ -1,0 +1,53 @@
+CREATE procedure _IDU_DLS_LAYOUTDS(
+in docentry NVARCHAR(20)
+)
+as 
+begin
+	Select 
+		t0."DocNum",
+		t0."U_IDU_DocDate",
+		t0."U_IDU_CardName",
+		t0."U_IDU_Transporter",
+		t3."U_IDU_TRANSPORTER_CODE",
+		t3."U_IDU_TRANSPORTER_NAME",
+		t0."U_IDU_Truck",
+		(Select "Name" from "@IDU_TRUCK" where "Code" = t0."U_IDU_Truck") as "TruckName",
+		t0."U_IDU_DS_Del_Term",
+		t0."U_IDU_LCLAmount",
+		t0."U_IDU_DocTotal",
+		t0."U_IDU_GrandTotal",
+		t0."U_IDU_Remarks",
+		t2."Address",
+		t2."MailAddres",
+		t4."U_IDU_DistChannel",
+		t4."U_IDU_PricingGrp",
+		(Select "Descr" from "UFD1" where "TableID" = 'OQUT' and "FieldID" = '11' and "FldValue" = t4."U_IDU_PricingGrp") as "PricingName",
+		t4."U_IDU_SellingType",
+		t4."U_IDU_PostalCode",
+		t4."U_IDU_PlaceOfDel",
+		t4."U_IDU_PortofDischarge",
+--detail
+		t1."U_IDU_PI_No",
+		t1."U_IDU_NumAtCard",
+		t1."U_IDU_ItemCode",
+		t1."U_IDU_Dscription",
+		t1."LineId",
+		t1."U_IDU_Quantity",
+		t1."U_IDU_TotalAmount",
+		t1."U_IDU_LCL",
+		t1."U_IDU_BalanceQty",
+		t1."U_IDU_Whse",
+		t1."U_IDU_Packaging",
+		t1."U_IDU_IDU_Bags",
+		t1."U_IDU_Bagging_Weight", 
+		t1."U_IDU_BatchNo",
+		t1."U_IDU_Price",
+		t1."U_IDU_ShipDate",
+		t1."U_IDU_Packaging"
+	from "@ODLS" t0
+	inner join "@DLS1" t1 on t0."DocEntry"=t1."DocEntry"
+	inner join "OCRD" t2 on t0."U_IDU_CardCode"=t2."CardCode"
+	inner join "@IDU_TRANSPORTER" t3 on t0."U_IDU_Transporter"=t3."U_IDU_TRANSPORTER_CODE"
+	inner join "OQUT" t4 on t1."U_IDU_PIEntry"=t4."DocEntry"
+	where t0."DocEntry"=:docentry;
+end;
